@@ -1,6 +1,6 @@
 Introduce
 ===
-some algorithms implemented by mapreduce
+some algorithms implemented by mapreduce, I haven't test the code yet, please use it carefully.
 
 
 Reference
