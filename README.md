@@ -11,6 +11,8 @@ Reference
 
 3、http://importantfish.com/
 
+4、Mining of Massive Datasets, http://infolab.stanford.edu/~ullman/mmds/book.pdf
+
 Contact
 ===
 joey.wen@outlook.com
