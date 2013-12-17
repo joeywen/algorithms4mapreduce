@@ -7,9 +7,9 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 /**
  * The output file has one line of the follwing format for 
- * each non-zero element m(i,j) of a matrix M
+ * each non-zero element m(i,j) of a matrix M, comma seperated
  * output format: <i><j><m_ij>
- * @author Joey
+ * @author joey.wen@outlook.com
  *
  */
 public class OneStepReducer extends Reducer<Text, Text, Text, Text> {

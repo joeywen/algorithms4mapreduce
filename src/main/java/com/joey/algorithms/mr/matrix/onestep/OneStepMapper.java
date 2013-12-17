@@ -9,11 +9,11 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 /**
  * the input file has one line of the following format for each
- * non-zero element m(i,j) of a matrxi M
+ * non-zero element m(i,j) of a matrxi M,comma seprated
  * 
  * input format: <M><i><j><m_ij>
  * 
- * @author Joey
+ * @author joey.wen@outlook.com
  *
  */
 
