@@ -1,4 +1,4 @@
-package com.joey.algorithms.mr.graph;
+package com.joey.mapred.graph;
 
 import java.io.IOException;
 

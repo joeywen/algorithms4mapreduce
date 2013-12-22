@@ -1,4 +1,4 @@
-package com.joey.algorithms.mr.graph;
+package com.joey.mapred.graph;
 
 import java.io.IOException;
 
@@ -17,9 +17,9 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.ToolRunner;
 
-import com.joey.algorithms.mr.graph.BaseDriver;
-import com.joey.algorithms.mr.graph.utils.Node;
-import com.joey.algorithms.mr.graph.utils.Node.Color;
+import com.joey.mapred.graph.BaseDriver;
+import com.joey.mapred.graph.utils.Node;
+import com.joey.mapred.graph.utils.Node.Color;
 
 /**
  * Description : MapReduce program to solve the single-source shortest path
