@@ -1,4 +1,4 @@
-package com.joey.algorithms.mr.graph.intersect;
+package com.joey.algorithms.mr.graph;
 
 import java.io.IOException;
 import java.util.HashSet;
@@ -19,7 +19,6 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.ToolRunner;
 
-import com.joey.algorithms.mr.graph.BaseDriver;
 
 public class IntersectDriver extends BaseDriver {
   /**

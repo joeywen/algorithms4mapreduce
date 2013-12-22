@@ -1,4 +1,4 @@
-package com.joey.algorithms.mr.graph.bfs;
+package com.joey.algorithms.mr.graph;
 
 import java.io.IOException;
 
@@ -35,7 +35,7 @@ import com.joey.algorithms.mr.graph.utils.Node.Color;
  * 
  */
 
-public class BFDSearchDriver extends BaseDriver {
+public class BFSearchDriver extends BaseDriver {
 
   /**
    * 
@@ -212,7 +212,7 @@ public class BFDSearchDriver extends BaseDriver {
   }
   
   public static void main(String[] args) throws Exception {
-    int res = ToolRunner.run(new Configuration(), new BFDSearchDriver(), args);
+    int res = ToolRunner.run(new Configuration(), new BFSearchDriver(), args);
     if(args.length != 2){
       System.err.println("Usage: <in> <output name> ");
     }
@@ -226,7 +226,7 @@ public class BFDSearchDriver extends BaseDriver {
 
       @Override
       public Class<?> getJarByClass() {
-        return BFDSearchDriver.class;
+        return BFSearchDriver.class;
       }
 
       @Override

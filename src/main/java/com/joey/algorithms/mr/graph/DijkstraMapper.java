@@ -1,4 +1,4 @@
-package com.joey.algorithms.mr.graph.dijkstra;
+package com.joey.algorithms.mr.graph;
 
 import java.io.IOException;
 

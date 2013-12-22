@@ -1,4 +1,4 @@
-package com.joey.algorithms.mr.graph.pagerank;
+package com.joey.algorithms.mr.pagerank;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;

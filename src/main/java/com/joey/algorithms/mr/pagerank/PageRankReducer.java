@@ -1,4 +1,4 @@
-package com.joey.algorithms.mr.graph.pagerank;
+package com.joey.algorithms.mr.pagerank;
 
 import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.ObjectWritable;

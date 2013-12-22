@@ -1,4 +1,4 @@
-package com.joey.algorithms.mr.graph.dijkstra;
+package com.joey.algorithms.mr.graph;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -21,7 +21,6 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.ToolRunner;
 
-import com.joey.algorithms.mr.graph.BaseDriver;
 
 /**
  * graph example
