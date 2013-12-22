@@ -1,4 +1,4 @@
-package com.joey.algorithms.mr.matrix.blockmulti;
+package com.joey.algorithms.mr.matrix;
 
 import java.io.IOException;
 import java.util.*;

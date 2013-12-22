@@ -1,4 +1,4 @@
-package com.joey.algorithms.mr.matrix.twostep;
+package com.joey.algorithms.mr.matrix;
 
 import java.io.IOException;
 import java.util.ArrayList;
