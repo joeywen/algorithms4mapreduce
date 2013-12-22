@@ -1,4 +1,4 @@
-package com.joey.algorithms.mr.pagerank;
+package com.joey.mapred.pagerank;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
@@ -15,7 +15,7 @@ import org.apache.hadoop.mapreduce.lib.input.KeyValueTextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.ToolRunner;
 
-import com.joey.algorithms.mr.graph.BaseDriver;
+import com.joey.mapred.graph.BaseDriver;
 
 public class PageRankDriver extends BaseDriver {
 

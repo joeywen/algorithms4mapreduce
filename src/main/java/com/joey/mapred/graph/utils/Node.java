@@ -1,4 +1,4 @@
-package com.joey.algorithms.mr.graph.utils;
+package com.joey.mapred.graph.utils;
 
 import java.util.ArrayList;
 import java.util.List;

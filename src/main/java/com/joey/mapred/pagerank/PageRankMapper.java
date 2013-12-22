@@ -1,4 +1,4 @@
-package com.joey.algorithms.mr.pagerank;
+package com.joey.mapred.pagerank;
 
 import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.ObjectWritable;

@@ -1,4 +1,4 @@
-package com.joey.algorithms.mr.matrix;
+package com.joey.mapred.matrix;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
@@ -14,7 +14,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.ToolRunner;
 
-import com.joey.algorithms.mr.graph.BaseDriver;
+import com.joey.mapred.graph.BaseDriver;
 
 /**
  *   matrix A         matrix B

@@ -1,4 +1,4 @@
-package com.joey.algorithms.mr.matrix;
+package com.joey.mapred.matrix;
 
 import java.io.IOException;
 import java.util.HashMap;

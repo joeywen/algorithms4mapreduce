@@ -1,4 +1,4 @@
-package com.joey.algorithms.mr.pagerank;
+package com.joey.mapred.pagerank;
 
 import java.io.DataInput;
 import java.io.DataOutput;

@@ -1,4 +1,4 @@
-package com.joey.algorithms.mr.recommendation;
+package com.joey.mapred.recommendation;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -25,7 +25,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.ToolRunner;
 
-import com.joey.algorithms.mr.graph.BaseDriver;
+import com.joey.mapred.graph.BaseDriver;
 
 public class FriendRecommendationDriver extends BaseDriver {
 
