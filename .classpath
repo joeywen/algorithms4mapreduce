@@ -6,6 +6,12 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/demos/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
@@ -24,7 +30,7 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/hadoop-ant-1.2.0.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop-client-1.2.0.jar"/>
-	<classpathentry kind="lib" path="lib/hadoop-core-1.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-core-1.2.0.jar" sourcepath="D:/OpenSource/hadoop-0.23.8-src"/>
 	<classpathentry kind="lib" path="lib/hadoop-examples-1.2.0.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop-minicluster-1.2.0.jar"/>
 	<classpathentry kind="lib" path="lib/hadoop-test-1.2.0.jar"/>
