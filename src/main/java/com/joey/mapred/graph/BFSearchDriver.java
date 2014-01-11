@@ -82,6 +82,8 @@ public class BFSearchDriver extends BaseDriver {
     // while there are more gray nodes to process
     while (terminationValue > 0) {
       job = getJobConf(args); // get the job configuration
+      job.setNumReduceTasks(3);
+      
       String input, output;
 
       // setting the input file and output file for each iteration
@@ -117,7 +119,7 @@ public class BFSearchDriver extends BaseDriver {
   }
   
   public static void main(String[] args) throws Exception {
-    int res = ToolRunner.run(new Configuration(), new BFSearchDriver(), args);
+    int res = ToolRunner.run(new BFSearchDriver(), args);
     if(args.length != 2){
       System.err.println("Usage: <in> <output name> ");
     }

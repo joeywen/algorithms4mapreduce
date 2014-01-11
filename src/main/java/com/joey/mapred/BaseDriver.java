@@ -11,12 +11,15 @@ import org.apache.hadoop.util.Tool;
 
 public abstract class BaseDriver extends Configured implements Tool {
 
-  protected Configuration conf = getConf();
-  
   // method to set the configuration for the job and 
   // the mapper and the reducer classes
   protected Job setupJob(String jobName, JobInfo jobInfo) throws Exception {
-
+  	Configuration conf = getConf();
+  	
+  	if (conf == null) {
+  		throw new RuntimeException("Configuration should not be null");
+  	}
+  	
     Job job = new Job(conf, jobName);
     // set the several classes
     job.setJarByClass(jobInfo.getJarByClass());

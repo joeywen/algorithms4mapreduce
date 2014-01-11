@@ -34,9 +34,9 @@ import com.joey.mapred.BaseDriver;
 public class OneStepMatrixMultiplicationDriver extends BaseDriver {
 
 	public int run(String[] arg0) throws Exception {
-		conf.set("m", "2");
-		conf.set("n", "5");
-		conf.set("p", "3");
+		getConf().set("m", "2");
+		getConf().set("n", "5");
+		getConf().set("p", "3");
 		
 		Job job = getJobConf(arg0);
 		
@@ -103,6 +103,6 @@ public class OneStepMatrixMultiplicationDriver extends BaseDriver {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		System.exit(ToolRunner.run(new Configuration(), new OneStepMatrixMultiplicationDriver(), args));
+		System.exit(ToolRunner.run(new OneStepMatrixMultiplicationDriver(), args));
 	}
 }

@@ -223,7 +223,7 @@ public class MSTDriver extends BaseDriver {
   }
 
   public static void main(String[] args) throws Exception {
-    int res = ToolRunner.run(new Configuration(), new MSTDriver(), args);
+    int res = ToolRunner.run(new MSTDriver(), args);
     if (args.length != 2) {
       System.err
           .println("Usage: MST <in> <output > ");

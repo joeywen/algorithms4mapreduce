@@ -38,9 +38,9 @@ public class TraverseGraph {
 		protected void map(Object key, Text value, Context context, Node inNode)
 				throws IOException, InterruptedException {
 			if (inNode.getColor() == Color.GRAY) {
-				for (String neighbor : inNode.getEdges()) {
+				for (Text neighbor : inNode.getEdges()) {
 					Node adjacentNode = new Node();
-					adjacentNode.setId(neighbor);
+					adjacentNode.setId(neighbor.toString());
 					adjacentNode.setDistance(inNode.getDistance() + 1);
 					adjacentNode.setColor(Node.Color.GRAY);
 					adjacentNode.setParent(inNode.getId());

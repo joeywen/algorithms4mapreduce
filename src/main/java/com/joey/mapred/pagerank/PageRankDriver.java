@@ -35,7 +35,7 @@ public class PageRankDriver extends BaseDriver {
     String workdir = getConf().get("com.joey.dir", "user/joey/pagerank/");
     FileInputFormat.addInputPath(job, new Path(workdir + "tmp/in"));
 
-    FileSystem fs = FileSystem.get(conf);
+    FileSystem fs = FileSystem.get(getConf());
     fs.delete(new Path(workdir + "tmp/out"), true);
     FileOutputFormat.setOutputPath(job, new Path(workdir + "tmp/out"));
     int res = job.waitForCompletion(true) ? 0 : 1;

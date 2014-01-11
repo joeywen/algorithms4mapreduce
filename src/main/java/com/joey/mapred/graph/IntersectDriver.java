@@ -178,7 +178,7 @@ public class IntersectDriver extends BaseDriver {
 
   public static void main(String[] args) throws Exception {
 
-    int res = ToolRunner.run(new Configuration(), new IntersectDriver(), args);
+    int res = ToolRunner.run(new IntersectDriver(), args);
     if (args.length != 2) {
       System.err.println("Usage: Intersect <in> <out>");
       System.exit(2);

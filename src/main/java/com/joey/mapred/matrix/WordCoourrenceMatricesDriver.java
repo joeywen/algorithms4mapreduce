@@ -152,7 +152,7 @@ public class WordCoourrenceMatricesDriver extends BaseDriver {
   }
   
   public static void main(String[] args) throws Exception {
-    System.out.println(ToolRunner.run(new Configuration(), new WordCoourrenceMatricesDriver(), args));
+    System.out.println(ToolRunner.run(new WordCoourrenceMatricesDriver(), args));
   }
 
 }
