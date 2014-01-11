@@ -15,7 +15,7 @@ import org.apache.hadoop.mapreduce.lib.input.KeyValueTextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.ToolRunner;
 
-import com.joey.mapred.graph.BaseDriver;
+import com.joey.mapred.BaseDriver;
 
 public class PageRankDriver extends BaseDriver {
 

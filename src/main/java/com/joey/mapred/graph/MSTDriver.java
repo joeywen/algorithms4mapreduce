@@ -21,6 +21,8 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.ToolRunner;
 
+import com.joey.mapred.BaseDriver;
+
 
 public class MSTDriver extends BaseDriver {
 
@@ -42,7 +44,7 @@ public class MSTDriver extends BaseDriver {
    * Output format: <key, value>:<weight, source:destination>
    *
    */
-  class MSTMapper extends Mapper<Object, Text, IntWritable, Text> {
+  public static class MSTMapper extends Mapper<Object, Text, IntWritable, Text> {
 
     @Override
     protected void map(Object key, Text value, Context context)
@@ -69,7 +71,7 @@ public class MSTDriver extends BaseDriver {
    * and the edge is considered to be in the MST. Else,  the edge is discarded.
    *
    */
-   class MSTReducer extends Reducer<IntWritable, Text, Text, Text> {
+   public static class MSTReducer extends Reducer<IntWritable, Text, Text, Text> {
 
     Map<String, Set<String>> node_AssociatedSet = new HashMap<String, Set<String>>();
     
